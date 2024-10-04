@@ -1,0 +1,92 @@
+h1 {
+  color: cornflowerblue;
+  font-family: cursive;
+  text-align: center;
+  font-family: cursive;
+}
+.topnav {
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+}
+.active {
+  text-decoration: none;
+  color: cornflowerblue;
+  font-family: cursive;
+  border-radius: 50px;
+}
+img {
+  height: 500px;
+  width: 400px;
+}
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.divyed {
+  height: 50px;
+  background-color: black;
+  border: 500px;
+  color: cornflowerblue;
+  font-family: cursive;
+  text-align: center;
+  font-size: 30px;
+}
+.Bork {
+  height: 100px;
+}
+body {
+  background-color: rgb(194, 217, 248);
+}
+.active:hover {
+  color: antiquewhite;
+}
+h2 {
+  color: cornflowerblue;
+  font-family: cursive;
+  text-align: center;
+}
+.baba {
+  color: cornflowerblue;
+  background-color: black;
+  font-family: cursive;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+.container {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  align-self: center;
+}
+.hidden-text {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.container:hover .hidden-text {
+  opacity: 1;
+  visibility: visible;
+}
+.smaller {
+  size-adjust: 10px;
+}
+@media all and (max-width: 500px) {
+  body {
+    background-color: white;
+  }
+  .active:hover {
+    color: orangered;
+  }
+  .topnav {
+    background-color: white;
+  }
+  img {
+    height: 300px;
+    width: 200px;
+  }
+}
